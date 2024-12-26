@@ -1,0 +1,46 @@
+cssbody {
+    font-family: Arial, sans-serif;
+    background-color: #b0d10c;
+    margin: 0;
+    padding: 20px;
+}
+body {
+    height:1270px; /* Задает высоту на весь экран */
+    background-image: url('belarus.jpg'); /* Укажите путь к вашей картинке */
+    background-size: cover; /* Покрытие всего экрана */
+    background-position: center; /* Центрирование картинки */
+    background-repeat: no-repeat; /* Чтобы картинка не повторялась */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin: 20px 0;
+    border: 1px solid #1250ac;
+    border-radius: 5px;
+}
+
+.result-item {
+    padding: 10px;
+    border-bottom: 1px solid #a91c1c;
+}
+
+.result-item:last-child {
+    border: none;
+
+}
